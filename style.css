@@ -1,0 +1,96 @@
+
+/*FLEX CODE */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.header {
+    padding: 0;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel-1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+}
+
+.text-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* DESIGN CODE */
+
+.header {
+    background-color: skyblue;
+    padding: 24px;
+    border: 16px;
+    border-style: ridge;  
+    font-size: large;
+      
+}
+
+.title {
+    font-weight: 800;
+    border: 1px;
+    padding: 8px;
+    background-color: aliceblue;
+}
+
+.panel-1 {
+    border: 16px;
+    border-style: ridge;
+    
+}
+
+.text-1 {
+    text-align: center;
+    background-color: skyblue;
+    margin-right: auto
+}
+
+.title-1 {
+    font-size: 28px;
+    font-weight: 555;
+    background-color: aliceblue;
+    padding: 4px;
+    margin: 8px;
+}
+
+.info-1 {
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border: 1px;
+    border-style: dashed;
+    background-color: black;
+    font-weight: 600;
+}
+
+html {
+    background-color: violet;
+}
+
+div {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    max-height: auto;
+    max-width: 400px;
+}
